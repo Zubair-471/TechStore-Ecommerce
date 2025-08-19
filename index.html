@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Premium Tech Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-microchip"></i>
+                <span>TechStore</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#categories" class="nav-link">Categories</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Premium Tech Products</h1>
+                <p class="hero-subtitle">Explore the latest smartphones, laptops, smartwatches, and cutting-edge gadgets. Quality tech products for every lifestyle.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Shop Now</button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Video
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Products</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-laptop"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Discover our handpicked selection of premium tech products</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPhone 15 Pro</h3>
+                        <p>Latest smartphone with advanced camera system and A17 Pro chip</p>
+                        <div class="product-price">$999</div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>MacBook Pro M3</h3>
+                        <p>Powerful laptop with M3 chip for professionals and creators</p>
+                        <div class="product-price">$1,999</div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-watch"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Apple Watch Series 9</h3>
+                        <p>Advanced health monitoring and fitness tracking smartwatch</p>
+                        <div class="product-price">$399</div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>AirPods Pro</h3>
+                        <p>Wireless earbuds with active noise cancellation and spatial audio</p>
+                        <div class="product-price">$249</div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop by Category</h2>
+                <p>Browse our extensive collection of tech products by category</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Smartphones</h3>
+                    <p>Latest phones from Apple, Samsung, Google, and more</p>
+                    <span class="category-count">200+ Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Laptops</h3>
+                    <p>Powerful laptops for work, gaming, and creativity</p>
+                    <span class="category-count">150+ Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-watch"></i>
+                    </div>
+                    <h3>Smartwatches</h3>
+                    <p>Fitness tracking and health monitoring devices</p>
+                    <span class="category-count">100+ Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Audio</h3>
+                    <p>Headphones, speakers, and audio accessories</p>
+                    <span class="category-count">300+ Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming</h3>
+                    <p>Consoles, controllers, and gaming accessories</p>
+                    <span class="category-count">250+ Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Cameras</h3>
+                    <p>DSLRs, mirrorless cameras, and photography gear</p>
+                    <span class="category-count">180+ Products</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Reviews</h2>
+                <p>See what our customers say about our products and service</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Amazing selection of tech products! Fast delivery and excellent customer service. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Tech Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Best prices I've found online for premium tech products. Quality is outstanding!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mike Chen</h4>
+                            <span>Software Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Great experience shopping here. The product range is impressive and shipping was super fast."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <span>Digital Creator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Offers</h2>
+                <p>Limited time deals on premium tech products</p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">50% OFF</div>
+                    <div class="offer-image">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="offer-content">
+                        <h3>iPad Air</h3>
+                        <p>Powerful tablet for creativity and productivity</p>
+                        <div class="offer-price">
+                            <span class="original-price">$599</span>
+                            <span class="discounted-price">$299</span>
+                        </div>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">30% OFF</div>
+                    <div class="offer-image">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="offer-content">
+                        <h3>4K Smart TV</h3>
+                        <p>Crystal clear picture with built-in streaming apps</p>
+                        <div class="offer-price">
+                            <span class="original-price">$799</span>
+                            <span class="discounted-price">$559</span>
+                        </div>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">25% OFF</div>
+                    <div class="offer-image">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <div class="offer-content">
+                        <h3>Mechanical Keyboard</h3>
+                        <p>Premium gaming and typing experience</p>
+                        <div class="offer-price">
+                            <span class="original-price">$199</span>
+                            <span class="discounted-price">$149</span>
+                        </div>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Upgrade Your Tech?</h2>
+                <p>Join thousands of customers who trust TechStore for their tech needs. Free shipping on orders over $50!</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Shop Now</button>
+                    <button class="btn btn-secondary">Browse Categories</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-microchip"></i>
+                        <span>TechStore</span>
+                    </div>
+                    <p>Your trusted source for premium tech products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Smartwatches</a></li>
+                        <li><a href="#">Audio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
