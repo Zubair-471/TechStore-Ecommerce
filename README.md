@@ -174,7 +174,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author & Contact
 
 * **M. Zubair Tariq**
-* 📧 [Zubair-471@users.noreply.github.com](mailto:Zubair-471@users.noreply.github.com)
 * 📧 [ZubairTariq.dev@gmail.com](mailto:ZubairTariq.dev@gmail.com)
 * 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-zubair-tariq-70209b364)
 * 🎯 [Fiverr – ZubairWebWorks](https://www.fiverr.com/ZubairWebWorks)
